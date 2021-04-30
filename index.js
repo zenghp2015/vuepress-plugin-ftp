@@ -6,11 +6,12 @@ const ftpDeploy = new FtpDeploy()
 
 module.exports = (options, ctx) => {
   const { parsed } = dotenvExpand(dotenv.config())
+  const siteOptions = { sourceDir: ctx.sourceDir, theme: '@vuepress/theme-default' }
   return {
-    name: 'vuepress-plugin-deploy',
+    name: 'vuepress-plugin-ftp',
     extendCli: cli => {
       cli.command('deploy [targetDir]', '').action(() => {
-        build().then(() => {
+        build(siteOptions).then(() => {
           const config = {
             user: parsed.SERVER_USER || '',
             password: parsed.SERVER_PASS || '',
