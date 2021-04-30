@@ -2,7 +2,21 @@
 
 VuePress Ftp 部署插件
 
-## 配置
+## vuepress 配置
+
+- 安装
+
+```shell
+yarn add -D vuepress-plugin-ftp # npm i --save-dev vuepress-plugin-ftp
+```
+
+- 在package.json 的 scripts添加 `vuepress deploy docs` 命令
+
+```shell
+"scripts": {
+  "deploy": "vuepress deploy docs"
+},
+```
 
 - 在根目录创建`.env`文件
 
@@ -12,14 +26,6 @@ SERVER_PORT=[port]
 SERVER_USER=[user]
 SERVER_PASS=[password]
 SERVER_REMOTE_ROOT=[dir]
-```
-
-- 在package.json 的 scripts添加 `vuepress deploy docs` 命令
-
-```shell
-"scripts": {
-  "deploy": "vuepress deploy docs"
-},
 ```
 
 ## 参数
