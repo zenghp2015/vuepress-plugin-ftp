@@ -10,11 +10,6 @@
     readable-stream "1.1.x"
     xregexp "2.0.0"
 
-adm-zip@^0.5.5:
-  version "0.5.5"
-  resolved "https://registry.npm.taobao.org/adm-zip/download/adm-zip-0.5.5.tgz?cache=0&sync_timestamp=1617192302302&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fadm-zip%2Fdownload%2Fadm-zip-0.5.5.tgz#b6549dbea741e4050309f1bb4d47c47397ce2c4f"
-  integrity sha1-tlSdvqdB5AUDCfG7TUfEc5fOLE8=
-
 asn1@~0.2.0:
   version "0.2.4"
   resolved "https://registry.npm.taobao.org/asn1/download/asn1-0.2.4.tgz#8d2475dfab553bb33e77b54e59e880bb8ce23136"
@@ -98,14 +93,6 @@ ftp-deploy@^2.4.1:
     read "^1.0.7"
     ssh2-sftp-client "^5.3.2"
     upath "^2.0.1"
-
-ftp@^0.3.10:
-  version "0.3.10"
-  resolved "https://registry.npm.taobao.org/ftp/download/ftp-0.3.10.tgz#9197d861ad8142f3e63d5a83bfe4c59f7330885d"
-  integrity sha1-kZfYYa2BQvPmPVqDv+TFn3MwiF0=
-  dependencies:
-    readable-stream "1.1.x"
-    xregexp "2.0.0"
 
 inherits@^2.0.3, inherits@~2.0.1:
   version "2.0.4"
