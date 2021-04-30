@@ -1,8 +1,19 @@
 {
   "name": "vuepress-plugin-ftp",
   "version": "1.0.0",
+  "description": "ftp plugin for vuepress",
   "main": "index.js",
+  "author": "Zero2015 <zenghp2015@gmail.com>",
   "license": "MIT",
+  "homepage": "https://github.com/Zero2015/vuepress-plugin-ftp",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zero2015/vuepress-plugin-ftp.git"
+  },
+  "keywords": [
+    "vue",
+    "vuepress"
+  ],
   "dependencies": {
     "dotenv": "^8.2.0",
     "dotenv-expand": "^5.1.0",
