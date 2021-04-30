@@ -1,6 +1,6 @@
 {
   "name": "vuepress-plugin-ftp",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "ftp plugin for vuepress",
   "main": "index.js",
   "author": "Zero2015 <zenghp2015@gmail.com>",
